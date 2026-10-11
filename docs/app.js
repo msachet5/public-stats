@@ -387,9 +387,6 @@
         tb.appendChild(tr);
       });
 
-    // downloads
-    $('#dl-csv').href = 'data/' + st.id + '/history.csv';
-    $('#dl-json').href = 'data/' + st.id + '/history.json';
   }
 
   function load(id, index) {

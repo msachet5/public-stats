@@ -47,7 +47,9 @@ h1 { margin: 0 0 6px; font: 400 clamp(1.6rem, 4vw, 2.2rem)/1.15 Georgia, "Times 
 .badge.ok::before { background: var(--ok); }
 .badge.warn::before { background: var(--warn); }
 .badge.bad::before { background: var(--bad); }
-.link { font-size: 13px; }
+.icons { display: flex; gap: 8px; }
+.icon { display: inline-flex; width: 34px; height: 34px; align-items: center; justify-content: center; border: 1px solid var(--line); border-radius: 50%; background: var(--panel); color: var(--fg); }
+.icon:hover, .icon:focus-visible { color: var(--accent); border-color: var(--accent); }
 
 .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 12px; }
 .kpi { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; min-width: 0; }
@@ -103,9 +105,6 @@ th.n, td.n { text-align: right; }
 td.pre { color: var(--muted); }
 .tag { font-size: 11px; border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; color: var(--muted); }
 
-.foot { margin-top: 24px; font-size: 13px; color: var(--muted); }
-.foot p { margin: 0 0 8px; max-width: 80ch; }
-.foot strong { color: var(--fg); }
 
 @media (prefers-reduced-motion: no-preference) {
   .chart rect.bar { transform-origin: bottom; transform-box: fill-box; animation: grow .5s cubic-bezier(.2, .7, .2, 1); }

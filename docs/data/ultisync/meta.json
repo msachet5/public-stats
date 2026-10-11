@@ -1,96 +1,95 @@
 {
  "repo": "msachet5/obsidian-ultisync",
- "fetchedAt": "2026-10-11T19:00:00Z",
- "seed": true,
+ "fetchedAt": "2026-10-11T19:46:13.144Z",
  "stars": 10,
  "forks": 0,
- "watchers": null,
+ "watchers": 0,
  "openIssues": 0,
- "pushedAt": null,
+ "pushedAt": "2026-09-27T20:32:45Z",
  "releases": [
   {
    "tag": "1.0.1",
-   "publishedAt": "2026-09-07T04:30:00Z",
+   "publishedAt": "2026-09-07T04:30:49Z",
    "prerelease": false,
-   "mainJsDownloads": null,
-   "assetDownloads": null
+   "mainJsDownloads": 4,
+   "assetDownloads": 13
   },
   {
    "tag": "1.0.2",
-   "publishedAt": "2026-09-07T12:19:00Z",
+   "publishedAt": "2026-09-07T12:19:21Z",
    "prerelease": false,
-   "mainJsDownloads": null,
-   "assetDownloads": null
+   "mainJsDownloads": 8,
+   "assetDownloads": 22
   },
   {
    "tag": "1.0.3",
-   "publishedAt": "2026-09-07T16:11:00Z",
+   "publishedAt": "2026-09-07T16:11:34Z",
    "prerelease": false,
-   "mainJsDownloads": null,
-   "assetDownloads": null
+   "mainJsDownloads": 19,
+   "assetDownloads": 55
   },
   {
    "tag": "1.0.4-beta.1",
-   "publishedAt": "2026-09-10T13:31:00Z",
+   "publishedAt": "2026-09-10T13:31:10Z",
    "prerelease": true,
-   "mainJsDownloads": null,
-   "assetDownloads": null
+   "mainJsDownloads": 1,
+   "assetDownloads": 3
   },
   {
    "tag": "1.0.4-beta.2",
-   "publishedAt": "2026-09-10T14:16:00Z",
+   "publishedAt": "2026-09-10T14:16:02Z",
    "prerelease": true,
-   "mainJsDownloads": null,
-   "assetDownloads": null
+   "mainJsDownloads": 3,
+   "assetDownloads": 9
   },
   {
    "tag": "1.0.4-beta.3",
-   "publishedAt": "2026-09-10T15:04:00Z",
+   "publishedAt": "2026-09-10T15:04:39Z",
    "prerelease": true,
-   "mainJsDownloads": null,
-   "assetDownloads": null
+   "mainJsDownloads": 1,
+   "assetDownloads": 4
   },
   {
    "tag": "1.0.4",
-   "publishedAt": "2026-09-10T15:51:00Z",
+   "publishedAt": "2026-09-10T15:51:01Z",
    "prerelease": false,
-   "mainJsDownloads": null,
-   "assetDownloads": null
+   "mainJsDownloads": 36,
+   "assetDownloads": 111
   },
   {
    "tag": "1.0.5-beta.1",
-   "publishedAt": "2026-09-17T02:58:00Z",
+   "publishedAt": "2026-09-17T02:58:45Z",
    "prerelease": true,
-   "mainJsDownloads": null,
-   "assetDownloads": null
+   "mainJsDownloads": 1,
+   "assetDownloads": 1
   },
   {
    "tag": "1.0.5-beta.2",
-   "publishedAt": "2026-09-22T00:32:00Z",
+   "publishedAt": "2026-09-22T00:32:50Z",
    "prerelease": true,
-   "mainJsDownloads": null,
-   "assetDownloads": null
+   "mainJsDownloads": 1,
+   "assetDownloads": 1
   },
   {
    "tag": "1.0.5-beta.3",
-   "publishedAt": "2026-09-22T00:43:00Z",
+   "publishedAt": "2026-09-22T00:43:10Z",
    "prerelease": true,
-   "mainJsDownloads": null,
-   "assetDownloads": null
+   "mainJsDownloads": 1,
+   "assetDownloads": 1
   },
   {
    "tag": "1.0.5",
-   "publishedAt": "2026-09-22T22:58:00Z",
+   "publishedAt": "2026-09-22T22:58:34Z",
    "prerelease": false,
-   "mainJsDownloads": null,
-   "assetDownloads": null
+   "mainJsDownloads": 18,
+   "assetDownloads": 53
   },
   {
    "tag": "1.0.6",
-   "publishedAt": "2026-09-27T20:34:00Z",
+   "publishedAt": "2026-09-27T20:34:45Z",
    "prerelease": false,
-   "mainJsDownloads": null,
-   "assetDownloads": null
+   "mainJsDownloads": 61,
+   "assetDownloads": 185
   }
  ]
 }

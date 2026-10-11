@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plugin stats</title>
+<meta name="description" content="Public install statistics for Obsidian plugins, snapshotted daily.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="wrap" id="app" aria-live="polite">
+  <header class="head">
+    <div>
+      <p class="eyebrow" id="eyebrow">Obsidian plugin stats</p>
+      <h1 id="title">Loading…</h1>
+      <p class="take" id="take"></p>
+    </div>
+    <div class="head-side">
+      <label class="pick" id="pick-wrap" hidden>Plugin
+        <select id="pick"></select>
+      </label>
+      <span class="badge" id="fresh" title="">...</span>
+      <a class="link" id="repo-link" href="#" hidden>GitHub repo</a>
+    </div>
+  </header>
+
+  <section class="kpis" id="kpis"></section>
+
+  <section class="grid2">
+    <article class="card">
+      <h2>Installs by month</h2>
+      <p class="sub">New installs credited to the day they happened. The current month is partial.</p>
+      <div class="chart" id="c-month"></div>
+    </article>
+    <article class="card">
+      <h2>Daily installs</h2>
+      <p class="sub">Last 60 days, with a 7-day average line.</p>
+      <div class="chart" id="c-day"></div>
+    </article>
+  </section>
+
+  <section class="card">
+    <h2>Cumulative installs</h2>
+    <p class="sub">Dashed lines mark stable releases.</p>
+    <div class="chart" id="c-cum"></div>
+  </section>
+
+  <section class="card">
+    <h2>Weekly installs by version</h2>
+    <p class="sub">Which release new installs land on, week by week. Weeks start on Monday (UTC).</p>
+    <div class="chart" id="c-week"></div>
+    <div class="legend" id="legend"></div>
+  </section>
+
+  <section class="grid2">
+    <article class="card">
+      <h2>Where new installs land</h2>
+      <p class="sub" id="land-sub">Last 7 days, by version.</p>
+      <div id="land"></div>
+    </article>
+    <article class="card">
+      <h2>Health checks</h2>
+      <p class="sub">Things worth a glance when the numbers look odd.</p>
+      <ul class="checks" id="checks"></ul>
+    </article>
+  </section>
+
+  <section class="card">
+    <h2>Releases</h2>
+    <p class="sub">Installs come from Obsidian's stats. GitHub downloads count the <code>main.js</code> asset and include pre-releases, so they also catch beta testers.</p>
+    <div class="tablewrap"><table id="rel">
+      <thead><tr>
+        <th>Version</th><th>Released</th><th>Type</th>
+        <th class="n">Installs</th><th class="n">Share</th>
+        <th class="n" title="Installs within 7 days of release, from daily snapshots (approximate)">First 7 days</th>
+        <th class="n" title="Download count of main.js on the GitHub release">GitHub downloads</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table></div>
+  </section>
+
+  <footer class="foot">
+    <p><strong>What an install is.</strong> Obsidian counts downloads of each plugin version. Someone who updates to a newer version counts again, so these are not unique users. Obsidian does not publish a time series, so daily and monthly numbers come from this site's own daily snapshots of the public stats file. Each snapshot reflects the state at about 00:30 UTC, so installs are credited to the previous day.</p>
+    <p>Data: <a id="dl-csv" href="#">history.csv</a> · <a id="dl-json" href="#">history.json</a> · Source: <a href="https://github.com/obsidianmd/obsidian-releases/blob/master/community-plugin-stats.json">Obsidian community-plugin-stats.json</a> · Refreshed daily by GitHub Actions.</p>
+  </footer>
+</main>
+<div class="tip" id="tip" role="tooltip"></div>
+<script src="app.js"></script>
+</body>
+</html>

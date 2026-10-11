@@ -1,0 +1,96 @@
+{
+ "repo": "msachet5/obsidian-ultisync",
+ "fetchedAt": "2026-10-11T19:00:00Z",
+ "seed": true,
+ "stars": 10,
+ "forks": 0,
+ "watchers": null,
+ "openIssues": 0,
+ "pushedAt": null,
+ "releases": [
+  {
+   "tag": "1.0.1",
+   "publishedAt": "2026-09-07T04:30:00Z",
+   "prerelease": false,
+   "mainJsDownloads": null,
+   "assetDownloads": null
+  },
+  {
+   "tag": "1.0.2",
+   "publishedAt": "2026-09-07T12:19:00Z",
+   "prerelease": false,
+   "mainJsDownloads": null,
+   "assetDownloads": null
+  },
+  {
+   "tag": "1.0.3",
+   "publishedAt": "2026-09-07T16:11:00Z",
+   "prerelease": false,
+   "mainJsDownloads": null,
+   "assetDownloads": null
+  },
+  {
+   "tag": "1.0.4-beta.1",
+   "publishedAt": "2026-09-10T13:31:00Z",
+   "prerelease": true,
+   "mainJsDownloads": null,
+   "assetDownloads": null
+  },
+  {
+   "tag": "1.0.4-beta.2",
+   "publishedAt": "2026-09-10T14:16:00Z",
+   "prerelease": true,
+   "mainJsDownloads": null,
+   "assetDownloads": null
+  },
+  {
+   "tag": "1.0.4-beta.3",
+   "publishedAt": "2026-09-10T15:04:00Z",
+   "prerelease": true,
+   "mainJsDownloads": null,
+   "assetDownloads": null
+  },
+  {
+   "tag": "1.0.4",
+   "publishedAt": "2026-09-10T15:51:00Z",
+   "prerelease": false,
+   "mainJsDownloads": null,
+   "assetDownloads": null
+  },
+  {
+   "tag": "1.0.5-beta.1",
+   "publishedAt": "2026-09-17T02:58:00Z",
+   "prerelease": true,
+   "mainJsDownloads": null,
+   "assetDownloads": null
+  },
+  {
+   "tag": "1.0.5-beta.2",
+   "publishedAt": "2026-09-22T00:32:00Z",
+   "prerelease": true,
+   "mainJsDownloads": null,
+   "assetDownloads": null
+  },
+  {
+   "tag": "1.0.5-beta.3",
+   "publishedAt": "2026-09-22T00:43:00Z",
+   "prerelease": true,
+   "mainJsDownloads": null,
+   "assetDownloads": null
+  },
+  {
+   "tag": "1.0.5",
+   "publishedAt": "2026-09-22T22:58:00Z",
+   "prerelease": false,
+   "mainJsDownloads": null,
+   "assetDownloads": null
+  },
+  {
+   "tag": "1.0.6",
+   "publishedAt": "2026-09-27T20:34:00Z",
+   "prerelease": false,
+   "mainJsDownloads": null,
+   "assetDownloads": null
+  }
+ ]
+}

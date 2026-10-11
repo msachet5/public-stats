@@ -1,0 +1,12 @@
+{
+ "generatedAt": "2026-10-11T19:00:00Z",
+ "plugins": [
+  {
+   "id": "ultisync",
+   "name": "UltiSync",
+   "repo": "msachet5/obsidian-ultisync",
+   "total": 149,
+   "date": "2026-10-11"
+  }
+ ]
+}

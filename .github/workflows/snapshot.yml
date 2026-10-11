@@ -56,6 +56,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main   # picks up the snapshot commit made in the previous job
+      - name: Cache-bust page assets
+        run: sed -i -E "s#(app\.js|style\.css)\?v=[A-Za-z0-9]+#\1?v=${GITHUB_SHA::8}#g" docs/index.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

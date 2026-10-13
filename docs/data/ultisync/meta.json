@@ -1,10 +1,10 @@
 {
  "repo": "msachet5/obsidian-ultisync",
- "fetchedAt": "2026-10-12T10:57:35.175Z",
+ "fetchedAt": "2026-10-13T10:41:56.130Z",
  "stars": 10,
- "forks": 0,
+ "forks": 1,
  "watchers": 0,
- "openIssues": 0,
+ "openIssues": 1,
  "pushedAt": "2026-09-27T20:32:45Z",
  "releases": [
   {
@@ -81,15 +81,15 @@
    "tag": "1.0.5",
    "publishedAt": "2026-09-22T22:58:34Z",
    "prerelease": false,
-   "mainJsDownloads": 18,
-   "assetDownloads": 53
+   "mainJsDownloads": 19,
+   "assetDownloads": 54
   },
   {
    "tag": "1.0.6",
    "publishedAt": "2026-09-27T20:34:45Z",
    "prerelease": false,
-   "mainJsDownloads": 62,
-   "assetDownloads": 189
+   "mainJsDownloads": 64,
+   "assetDownloads": 195
   }
  ]
 }

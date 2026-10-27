@@ -1,6 +1,6 @@
 {
  "repo": "msachet5/obsidian-ultisync",
- "fetchedAt": "2026-10-26T09:01:57.560Z",
+ "fetchedAt": "2026-10-27T09:05:25.346Z",
  "stars": 10,
  "forks": 1,
  "watchers": 0,
@@ -33,70 +33,70 @@
    "publishedAt": "2026-09-10T13:31:10Z",
    "prerelease": true,
    "mainJsDownloads": 1,
-   "assetDownloads": 3
+   "assetDownloads": 6
   },
   {
    "tag": "1.0.4-beta.2",
    "publishedAt": "2026-09-10T14:16:02Z",
    "prerelease": true,
    "mainJsDownloads": 3,
-   "assetDownloads": 9
+   "assetDownloads": 12
   },
   {
    "tag": "1.0.4-beta.3",
    "publishedAt": "2026-09-10T15:04:39Z",
    "prerelease": true,
    "mainJsDownloads": 1,
-   "assetDownloads": 4
+   "assetDownloads": 7
   },
   {
    "tag": "1.0.4",
    "publishedAt": "2026-09-10T15:51:01Z",
    "prerelease": false,
    "mainJsDownloads": 36,
-   "assetDownloads": 111
+   "assetDownloads": 114
   },
   {
    "tag": "1.0.5-beta.1",
    "publishedAt": "2026-09-17T02:58:45Z",
    "prerelease": true,
    "mainJsDownloads": 1,
-   "assetDownloads": 1
+   "assetDownloads": 4
   },
   {
    "tag": "1.0.5-beta.2",
    "publishedAt": "2026-09-22T00:32:50Z",
    "prerelease": true,
    "mainJsDownloads": 1,
-   "assetDownloads": 1
+   "assetDownloads": 4
   },
   {
    "tag": "1.0.5-beta.3",
    "publishedAt": "2026-09-22T00:43:10Z",
    "prerelease": true,
    "mainJsDownloads": 1,
-   "assetDownloads": 1
+   "assetDownloads": 4
   },
   {
    "tag": "1.0.5",
    "publishedAt": "2026-09-22T22:58:34Z",
    "prerelease": false,
    "mainJsDownloads": 19,
-   "assetDownloads": 55
+   "assetDownloads": 58
   },
   {
    "tag": "1.0.6",
    "publishedAt": "2026-09-27T20:34:45Z",
    "prerelease": false,
    "mainJsDownloads": 72,
-   "assetDownloads": 219
+   "assetDownloads": 222
   },
   {
    "tag": "1.0.7",
    "publishedAt": "2026-10-15T17:09:02Z",
    "prerelease": false,
-   "mainJsDownloads": 39,
-   "assetDownloads": 110
+   "mainJsDownloads": 41,
+   "assetDownloads": 119
   }
  ]
 }
